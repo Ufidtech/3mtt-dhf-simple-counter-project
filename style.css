@@ -1,0 +1,66 @@
+/* The Global Reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+}                   
+
+/* Centering on the PAGE */
+body {
+    
+    min-height: 100vh;
+    margin: 0;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    font-family: sans-serif;
+    background-color: #f4f4f9; 
+}
+
+
+.counter-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    background: white;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#display {
+    
+    font-size: 6rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+
+.button-holder {
+    display: flex;
+    
+    gap: 1rem; 
+}
+
+
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
